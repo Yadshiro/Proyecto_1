@@ -2,7 +2,7 @@
 
 from datetime import datetime
 
-fecha = input("Feccha (formato: AAAA-MM-DD): ")
+fecha = input("Fecha (formato: AAAA-MM-DD): ")
 fecha = datetime.strptime(fecha,"%Y-%m-%d") 
 
 
