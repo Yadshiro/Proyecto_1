@@ -10,3 +10,4 @@ hoy = datetime.now()
 dias_restantes = (fecha - hoy).days
 
 print(f"Faltan {dias_restantes}")
+print(hoy)
